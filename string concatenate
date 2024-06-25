@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	char ch,ch1[20],ch2[20];
+	int i,j;
+	gets(ch1);
+	gets(ch2);
+	for(i=0;ch1[i]!='\0';i++);
+	j=0;
+	while(ch2[j]!='\0')
+	{
+		ch1[i]=ch2[j];
+		i++;
+		j++;
+	}
+	ch1[i]!='\0';
+	printf("%s ",ch1);
+	}
+	
