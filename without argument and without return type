@@ -1,0 +1,16 @@
+
+#include<stdio.
+int palin(int);
+int add(int n)
+{
+	int sum,temp,r;
+	sum=0;
+	temp=n;
+	while(n!=0)
+	{
+	}
+}
+void main()
+{
+	add();
+} 
