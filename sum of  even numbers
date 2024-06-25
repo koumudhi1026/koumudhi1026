@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+	int n,i,sum,flag;
+	scanf("%d",&n);
+	i=n;
+	sum=0;
+	flag=0;
+	while(i<=n)
+	{
+		if(i%2==0)
+		{
+			if(flag==0)
+			{
+				printf("%d",i);
+				flag=1;
+			else
+			{
+			printf("+%d",i)
+		    }
+			sum=sum+i;
+		}
+		}
+		i++;
+	}
+			printf("%d",sum);
+}
+	
